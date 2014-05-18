@@ -1,0 +1,140 @@
+BODY
+{
+	font-family:Georgia, "Nimbus Roman No9 L", serif;
+	/* background-color:#75B2DD; */ /* Columbia blue */
+	/* background-color:#AAAAAA; */
+	background-image:url("images/texture8.png");
+	background-attachment:scroll;
+}
+
+DIV#all
+{
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding:50px;
+	/*
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	*/
+	box-shadow:0px 0px 10px gray;
+	-moz-box-shadow:0px 0px 10px gray;
+	-webkit-box-shadow:0px 0px 10px gray;
+	/*
+	background-image:url("images/texture5.gif");
+	background-attachment:scroll;
+	*/
+}
+
+DIV.note
+{
+	margin-top:10px;
+	font-size:small;
+}
+
+DIV#contact
+{
+	display:inline-block;
+	text-align:left;
+}
+
+DIV#portrait
+{
+	display:inline-block;
+	text-align:left;
+	width:160px;
+	padding-right:50px;
+	padding-top:30px;
+}
+
+DIV.cover {
+}
+
+DIV.resume
+{
+	float:left;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:20px;
+	box-shadow:0px 0px 10px gray;
+	-moz-box-shadow:0px 0px 10px gray;
+	-webkit-box-shadow:0px 0px 10px gray;
+}
+
+DIV.newline
+{
+	clear:both;
+}
+
+DIV.header
+{
+	font-size:large;
+	font-weight:bold;
+	color:white;
+	background:navy;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+DIV.header2
+{
+	font-size:large;
+	padding-left:20px;
+	padding-right:30px;
+    font-weight:bold;
+}
+
+DIV.content
+{
+	padding-left:20px;
+	padding-right:30px;
+}
+
+P {line-height:150%;}
+UL {line-height:150%;}
+A {text-decoration:underline; color:black;}
+A:hover {text-decoration:underline; color:blue;}
+
+.author {font-style:italic;}
+.title {font-weight:bold;}
+.conference {font-weight:bold; color:blue;}
+.description
+{
+	/* background-color:#EEEEEE; */
+	padding-top:0px;
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-right:20px;
+}
+.hidden {color:white;}
+
+IMG
+{
+	border:none;
+}
+
+IMG#portrait
+{
+	width:100%;
+	box-shadow:0px 0px 10px gray;
+	-moz-box-shadow:0px 0px 10px gray;
+	-webkit-box-shadow:0px 0px 10px gray;
+}
+
+IMG.logo
+{
+	float:left;
+	height:200px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+DIV.footer
+{
+	float:right;
+}
