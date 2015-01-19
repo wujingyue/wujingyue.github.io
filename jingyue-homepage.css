@@ -100,8 +100,8 @@ A {text-decoration:underline; color:black;}
 A:hover {text-decoration:underline; color:blue;}
 
 .author {font-style:italic;}
-.title {font-weight:bold;}
-.conference {font-weight:bold; color:blue;}
+.title {font-weight:normal;}
+.conference {font-weight:normal; color:blue;}
 .description
 {
 	/* background-color:#EEEEEE; */
