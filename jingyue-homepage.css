@@ -96,11 +96,11 @@ DIV.content
 
 P {line-height:150%;}
 UL {line-height:150%;}
-A {text-decoration:underline; color:black;}
+A {text-decoration:underline; color:inherit;}
 A:hover {text-decoration:underline; color:blue;}
 
-.author {font-style:italic;}
-.title {font-weight:normal;}
+.author {font-style:normal;}
+.title {font-style:italic; font-weight:normal; color:blue;}
 .conference {font-weight:normal; color:blue;}
 .description
 {
